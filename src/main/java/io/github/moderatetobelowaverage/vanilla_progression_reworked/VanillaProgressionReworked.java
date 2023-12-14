@@ -16,6 +16,6 @@ public class VanillaProgressionReworked implements ModInitializer {
 	public static final Logger LOGGER = LoggerFactory.getLogger("Vanilla Progression Reworked");
 	@Override
 	public void onInitialize(ModContainer mod) {
-		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "Steel_Ingot"), STEEL_INGOT);
+		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "steel_ingot"), STEEL_INGOT);
 	}
 }
