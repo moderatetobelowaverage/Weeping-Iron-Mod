@@ -1,25 +1,26 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "io.github.moderatetobelowaverage",
+		"id": "vanilla_progression_reworked",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Vanilla Progression Reworked",
+			"description": "Reworking vanilla progression with some additions",
 			"contributors": {
-				"Your name here": "Owner"
+				"ModerateToBelowAverage": "Developer"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://github.com/moderatetobelowaverage",
+				"issues": "https://github.com/moderatetobelowaverage/Vanilla-Progression-Reworked/issues",
+				"sources": "https://github.com/moderatetobelowaverage/Vanilla-Progression-Reworked"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/vanilla_progression_reworked/icon.png",
+			"license": "MPL-2.0"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.moderatetobelowaverage.vanilla_progression_reworked.VanillaProgressionReworked"
 		},
 		"depends": [
 			{
@@ -36,5 +37,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "vanilla_progression_reworked.mixins.json"
 }
