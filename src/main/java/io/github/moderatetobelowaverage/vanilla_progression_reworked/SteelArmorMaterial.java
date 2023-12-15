@@ -33,7 +33,7 @@ public class SteelArmorMaterial implements ArmorMaterial {
 	}
 	@Override
 	public String getName() {
-		return "steeel";
+		return "steel";
 	}
 
 	@Override
