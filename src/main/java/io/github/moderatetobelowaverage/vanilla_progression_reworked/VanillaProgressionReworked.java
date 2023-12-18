@@ -2,6 +2,7 @@ package io.github.moderatetobelowaverage.vanilla_progression_reworked;
 
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
@@ -9,9 +10,12 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
+import org.quiltmc.qsl.item.setting.api.QuiltItemSettings;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import static io.github.moderatetobelowaverage.vanilla_progression_reworked.ModBlocks.RAW_STEEL;
+import static io.github.moderatetobelowaverage.vanilla_progression_reworked.ModBlocks.REFINED_STEEL;
 import static io.github.moderatetobelowaverage.vanilla_progression_reworked.item.Moditems.*;
 
 public class VanillaProgressionReworked implements ModInitializer {
@@ -24,12 +28,19 @@ public class VanillaProgressionReworked implements ModInitializer {
 		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "steel_chestplate"), STEEL_CHESTPLATE);
 		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "steel_leggings"), STEEL_LEGGINGS);
 		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "steel_boots"), STEEL_BOOTS);
+		Registry.register(Registries.BLOCK, new Identifier(mod.metadata().id(), "raw_steel"), RAW_STEEL);
+		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "raw_steel"), new BlockItem(RAW_STEEL, new QuiltItemSettings()));
+		Registry.register(Registries.BLOCK, new Identifier(mod.metadata().id(), "refined_steel"), REFINED_STEEL);
+		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "refined_steel"), new BlockItem(REFINED_STEEL, new QuiltItemSettings()));
 
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-			entries.addAfter(Items.NETHERITE_INGOT, STEEL_INGOT);
+			entries.addAfter(Items.IRON_INGOT, STEEL_INGOT);
 			});
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
+			entries.addItem(RAW_STEEL.asItem());
+		});
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
-			entries.addAfter(Items.NETHERITE_BOOTS, STEEL_HELMET, STEEL_CHESTPLATE, STEEL_LEGGINGS, STEEL_BOOTS);
+			entries.addAfter(Items.IRON_BOOTS, STEEL_HELMET, STEEL_CHESTPLATE, STEEL_LEGGINGS, STEEL_BOOTS);
 		});
 	}
 }

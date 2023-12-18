@@ -3,5 +3,7 @@
   "item.vanilla_progression_reworked.steel_helmet": "Weeping Iron Helmet",
   "item.vanilla_progression_reworked.steel_chestplate": "Weeping Iron Chestplate",
   "item.vanilla_progression_reworked.steel_leggings": "Weeping Iron Leggings",
-  "item.vanilla_progression_reworked.steel_boots": "Weeping Iron Boots"
+  "item.vanilla_progression_reworked.steel_boots": "Weeping Iron Boots",
+  "Block.vanilla_progression_reworked.raw_steel": "Raw Weeping Amalgam",
+  "Block.vanilla_progression_reworked.refined_steel": "Block of Weeping Iron"
 }
