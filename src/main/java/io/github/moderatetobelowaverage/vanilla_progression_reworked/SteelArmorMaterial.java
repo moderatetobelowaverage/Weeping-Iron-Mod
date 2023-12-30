@@ -7,6 +7,7 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
+
 public class SteelArmorMaterial implements ArmorMaterial {
 	private static final int[] DURABILITY = new int[]{100,160,100,100};
 	private static final int[] PROTECTION = new int[]{2,8,4,2};
@@ -25,7 +26,7 @@ public class SteelArmorMaterial implements ArmorMaterial {
 	}
 	@Override
 	public SoundEvent getEquipSound() {
-		return SoundEvents.ITEM_ARMOR_EQUIP_GENERIC;
+		return SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE;
 	}
 	@Override
 	public Ingredient getRepairIngredient() {

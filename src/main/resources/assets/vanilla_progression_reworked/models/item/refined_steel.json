@@ -1,3 +1,6 @@
 {
-  "Parent": "vanilla_progression_reworked:block/refined_steel"
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "vanilla_progression_reworked:block/refined_steel"
+  }
 }

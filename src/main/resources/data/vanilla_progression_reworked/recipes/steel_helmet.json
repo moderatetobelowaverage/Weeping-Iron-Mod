@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:iron_helmet"
+  },
+  "addition": {
+    "item": "vanilla_progression_reworked:refined_steel"
+  },
+  "result": {
+    "item": "vanilla_progression_reworked:steel_helmet"
+  }
+}
