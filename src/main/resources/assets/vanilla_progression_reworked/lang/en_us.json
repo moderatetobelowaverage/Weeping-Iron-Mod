@@ -1,9 +1,14 @@
 {
-  "item.vanilla_progression_reworked.steel_ingot": "Steel Ingot",
+  "item.vanilla_progression_reworked.steel_ingot": "Weeping Iron Ingot",
   "item.vanilla_progression_reworked.steel_helmet": "Weeping Iron Helmet",
   "item.vanilla_progression_reworked.steel_chestplate": "Weeping Iron Chestplate",
   "item.vanilla_progression_reworked.steel_leggings": "Weeping Iron Leggings",
   "item.vanilla_progression_reworked.steel_boots": "Weeping Iron Boots",
   "block.vanilla_progression_reworked.raw_steel": "Raw Weeping Amalgam",
-  "block.vanilla_progression_reworked.refined_steel": "Block of Weeping Iron"
+  "block.vanilla_progression_reworked.refined_steel": "Block of Weeping Iron",
+  "item.vanilla_progression_reworked.steel_sword": "Weeping Iron Sword",
+  "item.vanilla_progression_reworked.steel_pickaxe": "Weeping Iron Pickaxe",
+  "item.vanilla_progression_reworked.steel_axe": "Weeping Iron Axe",
+  "item.vanilla_progression_reworked.steel_shovel": "Weeping Iron Shovel",
+  "item.vanilla_progression_reworked.steel_hoe": "Weeping Iron Hoe"
 }
