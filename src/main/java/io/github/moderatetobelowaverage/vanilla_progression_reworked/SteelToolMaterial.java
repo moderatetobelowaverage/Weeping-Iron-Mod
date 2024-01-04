@@ -9,11 +9,11 @@ public class SteelToolMaterial implements ToolMaterial {
 	public static final SteelToolMaterial INSTANCE = new SteelToolMaterial();
 	@Override
 	public int getDurability() {
-		return 500;
+		return 2000;
 	}
 	@Override
 	public float getMiningSpeedMultiplier() {
-		return 5.0F;
+		return 7.0F;
 	}
 	@Override
 	public float getAttackDamage() {
@@ -21,11 +21,11 @@ public class SteelToolMaterial implements ToolMaterial {
 	}
 	@Override
 	public int getMiningLevel() {
-		return 2;
+		return 3;
 	}
 	@Override
 	public int getEnchantability() {
-		return 15;
+		return 14;
 	}
 	@Override
 	public Ingredient getRepairIngredient() {
