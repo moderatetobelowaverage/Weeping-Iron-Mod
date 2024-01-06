@@ -32,15 +32,28 @@ public class VanillaProgressionReworked implements ModInitializer {
 		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "raw_steel"), new BlockItem(RAW_STEEL, new QuiltItemSettings()));
 		Registry.register(Registries.BLOCK, new Identifier(mod.metadata().id(), "refined_steel"), REFINED_STEEL);
 		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "refined_steel"), new BlockItem(REFINED_STEEL, new QuiltItemSettings()));
+		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "steel_sword"), STEEL_SWORD);
+		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "steel_pickaxe"), STEEL_PICKAXE);
+		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "steel_axe"), STEEL_AXE);
+		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "steel_shovel"), STEEL_SHOVEL);
+		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "steel_hoe"), STEEL_HOE);
 
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-			entries.addAfter(Items.IRON_INGOT, STEEL_INGOT);
-			});
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-			entries.addItem(RAW_STEEL.asItem());
+			entries.addAfter(Items.IRON_BLOCK, REFINED_STEEL.asItem());
+		});
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL_BLOCKS).register(entries -> {
+			entries.addAfter(Items.RAW_IRON, RAW_STEEL.asItem());
+		});
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS_AND_UTILITIES).register(entries -> {
+			entries.addAfter(Items.IRON_HOE, STEEL_PICKAXE, STEEL_AXE, STEEL_SHOVEL, STEEL_HOE);
 		});
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
 			entries.addAfter(Items.IRON_BOOTS, STEEL_HELMET, STEEL_CHESTPLATE, STEEL_LEGGINGS, STEEL_BOOTS);
+			entries.addAfter(Items.IRON_AXE, STEEL_AXE);
+			entries.addAfter(Items.IRON_SWORD, STEEL_SWORD);
+		});
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+			entries.addAfter(Items.IRON_INGOT, STEEL_INGOT);
 		});
 	}
 }
