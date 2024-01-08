@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "vanilla_progression_reworked:raw_steel",
-    "vanilla_progression_reworked:refined_steel"
+    "weeping_iron_mod:raw_steel",
+    "weeping_iron_mod:refined_steel"
   ]
 }
 

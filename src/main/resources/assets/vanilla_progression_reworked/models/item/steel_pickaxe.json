@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "vanilla_progression_reworked:item/steel_pickaxe"
-  }
-}

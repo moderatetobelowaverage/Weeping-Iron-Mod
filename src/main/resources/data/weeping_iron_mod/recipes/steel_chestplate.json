@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": [],
+  "base": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "addition": {
+    "item": "weeping_iron_mod:refined_steel"
+  },
+  "result": {
+    "item": "weeping_iron_mod:steel_chestplate"
+  }
+}
