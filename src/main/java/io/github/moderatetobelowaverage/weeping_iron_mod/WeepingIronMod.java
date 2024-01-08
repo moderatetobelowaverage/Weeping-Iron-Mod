@@ -20,7 +20,7 @@ import static io.github.moderatetobelowaverage.weeping_iron_mod.SteelItems.*;
 
 public class WeepingIronMod implements ModInitializer {
 	public static final String MOD_ID = "weeping_iron_mod";
-	public static final Logger LOGGER = LoggerFactory.getLogger("Vanilla Progression Reworked");
+	public static final Logger LOGGER = LoggerFactory.getLogger("Weeping Iron Mod");
 	@Override
 	public void onInitialize(ModContainer mod) {
 		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "steel_ingot"), STEEL_INGOT);
