@@ -5,15 +5,15 @@
 		"id": "weeping_iron_mod",
 		"version": "${version}",
 		"metadata": {
-			"name": "Vanilla Progression Reworked",
-			"description": "Reworking vanilla progression with some additions",
+			"name": "Weeping Iron Mod",
+			"description": "Adds a cool equipment tier",
 			"contributors": {
 				"ModerateToBelowAverage": "Developer"
 			},
 			"contact": {
 				"homepage": "https://github.com/moderatetobelowaverage",
-				"issues": "https://github.com/moderatetobelowaverage/Vanilla-Progression-Reworked/issues",
-				"sources": "https://github.com/moderatetobelowaverage/Vanilla-Progression-Reworked"
+				"issues": "https://github.com/moderatetobelowaverage/Weeping-Iron-Mod/issues",
+				"sources": "https://github.com/moderatetobelowaverage/Weeping-Iron-Mod"
 			},
 			"icon": "assets/weeping_iron_mod/icon.png",
 			"license": "MPL-2.0"
