@@ -37,5 +37,14 @@
 			}
 		]
 	},
-	"mixin": "weeping_iron_mod.mixins.json"
+	"mixin": "weeping_iron_mod.mixins.json",
+	"client": [
+		"ArmorMaterialsMixin"
+	],
+	"server": [
+		"ArmorMaterialsMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
 }

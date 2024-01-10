@@ -8,7 +8,7 @@ import net.minecraft.sound.SoundEvents;
 
 
 public class SteelArmorMaterial implements ArmorMaterial {
-	private static final int[] DURABILITY = new int[]{581,655,692,507};
+	private static final int[] DURABILITY = new int[]{585,675,720,495};
 	private static final int[] PROTECTION = new int[]{2,5,7,2};
 	@Override
 	public int getDurability(ArmorItem.ArmorSlot slot) {
