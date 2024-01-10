@@ -20,7 +20,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "io.github.moderatetobelowaverage.weeping_iron_mod.VanillaProgressionReworked"
+			"init": "io.github.moderatetobelowaverage.weeping_iron_mod.WeepingIronMod"
 		},
 		"depends": [
 			{
