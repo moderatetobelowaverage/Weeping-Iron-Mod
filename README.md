@@ -12,12 +12,12 @@ incentivising you to dig deep into the overworld and explore before you can go t
 ### Diamond Armor
 Diamond Armor is now an endgame recipe, being an upgrade of chainmail armor (obtained in the usual ways) using dragons breath, and a diamond block
 ![Screenshot of smithing table recipe, There is dragons breath in the furthest left slot, a chainmail chestplate in the center slot, and a diamond block in the right slot, the output of the recipe is a diamond chestplate.](https://cdn.modrinth.com/data/noz094yT/images/9f2be441bc2ab54e5b5a933c463320c2d347c6d3.png)
-The Idea of this was to make diamond armor a far more interesting accomplishment, taking advantage of the (in my opinion interesting) difficulty of finding chainmail armor, and adding dragons breath to make it a reward for "beating" the game. As a part of this change to be endgame, diamond and netherite have had their damage resistance values swapped, making diamond technically "the best" tier of armor (if you have no value for knockback protection).
+The Idea of this was to make diamond armor a far more interesting accomplishment, taking advantage of the (in my opinion interesting) difficulty of finding chainmail armor, and adding dragons breath to make it a reward for "beating" the game. As a part of this change to be endgame, diamond and netherite have had their armor toughness values swapped, making diamond technically "the best" tier of armor (if you have no value for knockback protection).
 
 ### Netherite Equipment
 Netherite equipment (both tools and armor) is now a direct upgrade of gold equipment.
 ![Screenshot of smithing table recipe, There is netherite upgrade template in the furthest left slot, a gold chestplate in the center slot, and a netherite ingot in the right slot, the output of the recipe is a netherite chestplate.](https://cdn.modrinth.com/data/noz094yT/images/1592257d4f028e81df7e3d4f92b6b0d1fbfaff52.png)
-and as mentioned previous it has also had its damaged resistance value swapped with diamond. the goal with this was to make netherites more interesting properties (immunity to being destroyed in fire and knockback resistance) stand out slightly more as *reasons* to use it *instead of* a "more powerful" equipment tier. Hopefully implementing more horizontal progression to the game.
+and as mentioned previous it has also had its armor toughness value swapped with diamond. the goal with this was to make netherites more interesting properties (immunity to being destroyed in fire and knockback resistance) stand out slightly more as *reasons* to use it *instead of* a "more powerful" equipment tier. Hopefully implementing more horizontal progression to the game.
 
 ## Additions!
 
