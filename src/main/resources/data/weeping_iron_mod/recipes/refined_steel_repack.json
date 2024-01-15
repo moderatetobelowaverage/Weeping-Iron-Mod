@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "www",
+    "www"
+  ],
+  "key": {
+    "w": {
+      "item": "weeping_iron_mod:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "weeping_iron_mod:refined_steel",
+    "count": 1
+  }
+}
