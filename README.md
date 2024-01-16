@@ -42,4 +42,4 @@ This is my first published mod, I am absolutely a newbie developer, If you encou
 The modpack I developed this for is on quilt, as a new dev I am more or less modloader agnostic (equally clueless coding for all of them) so I decided to make this mod on quilt for ease of integration later down the line. If this mod ever gets more than a few downloads and requests about it, I may port it to fabric (but once again, I might not)
 
 # Acknowledgements
-This mod *would not* have been possible without the quilt development wiki, and the quilt template mod, nor without the fabric developement wiki.
+This mod *would not* have been possible without the quilt development wiki, and the quilt template mod, nor without the fabric developement wiki. Additionally thanks to the team working on the "better than adventure" project, whose steel equipment tier inspired this mod.
